@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VISHAL</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="icon" href="/IMG/vishal-logo.png">
+</head>
+
+<body>
+  <div class="container" >
+    <div class="img" id="hom">
+      <a href="#">
+        <span><img src="/IMG/vish-logo-white.png" alt="" height="50px" /></span>
+      </a>
+    </div>
+    <div class="menu"><ul>
+      <li><span><a href="#hom">Home</a></span></li>
+      <li><span><a href="#abt">About</a></span></li>
+      <li><span><a href="#a3">Projects</a></span></li>
+      <li><span><a href="#a4">Contact</a></span></li>
+    </ul></div>
+    <div class="side-b">
+      <div class="links"><span><a href="#a1">Home</a></span>
+        <span><a href="#abt">About</a></span>
+        <span><a href="#a3">Projects</a></span>
+        <span><a href="#a4">Contact</a></span>
+      </div>
+      <span id="hamburger"><button>&#9776;</button></span>
+    </div>
+  </div>
+  </div>
+  <div class="introduction">
+    <div class="social-logos">
+      <div class="insta"><a href="https://www.instagram.com/vishal__tank_/" target="_blank"><img src="/IMG/instagram.png" alt="" style="width: 35px;"></a></div>
+      <div class="youtube"><a href="https://www.youtube.com/channel/UCaHOXQ2buAtj9O1UbSDo_7Q" target="_blank"><img src="/IMG/youtube.png" alt="" style="width: 35px;"></a></div>
+      <div class="linkedin"><a href="https://www.linkedin.com/in/vishal-tank-06870a222" target="_blank"><img src="/IMG/linkedin.png" alt="" style="width: 30px;"></a></div>
+      <div class="facebook"><a href="https://www.facebook.com/vishal.tank.5015/" target="_blank"><img src="/IMG/facebook.png" alt="" style="width: 30px;"></a></div>
+      <div class="github"><a href="https://github.com/vishal-tank" target="_blank"><img src="/IMG/github.png" alt="" style="width: 30px;"></a></div>
+    </div>
+    <div class="intro">
+      <p>Front-End Web developer</p>
+      <h1>Hey there, I'm<span id="vish">Vishal.</span></h1>
+      <p style="font-size: 15px; color: gray" id="abt">
+        An 18 year old Tech-Enthusiast who loves to code <br />
+        and enjoy making sites like this one.
+      </p>
+    </div>
+    <div class="image-logo"><img src="/IMG/my.png" alt=""></div>
+  </div>
+
+  <div class="about" id="a2">
+    <div class="about-me">
+      
+      <div class="mypara"><h1 style="text-align: CENTER;">ABOUT ME</h1><h2>I love building webpages & apps, I am learning MERN stack development for full stack & React Native for Apps, I enjoy
+      learning new stuff everyday and I don't focus on certificates my main achievements are my skills which I got by building
+      projects & solving bugs. I am also a programmer & I am still improving myself in this field, my main focus is Data
+      Structures & Algorithms. Although I am a begginer in this field but I am trying my best to become a great Software
+      engineer and a developer.
+      
+      I am still in my learning period so if you have any suggestions feel free to share them with me. :)</h2></div>
+      <div class="top-bar">
+        <div class="about-btn"><span><button id="skill" onclick="skills()">Skills</button></span>
+        <span><button id="experience" onclick="exp()">Experience</button></span>
+        <span><button id="education" onclick="educations()">Education</button></span></div>
+        <div class="desc">
+        <ul id="myskill">
+          <li><span>&rarr;</span>WEB DEVELOPEMENT</li>
+          <li><span>&rarr;</span>JAVASCRIPT</li>
+          <li><span>&rarr;</span>PYTHON</li>
+        </ul>
+        <ul id="myexperience">
+          <li><span>&rarr;</span>GSOC Runner up</li>
+          <li><span>&rarr;</span>Microsoft intern(online)</li>
+          <li><span>&rarr;</span>intern at startup called markitup</li>
+        </ul>
+        <ul id="myeducation">
+          <li><span>&rarr;</span>Btech in CSE from CTAE Udaipur(2022-Current)</li>
+          <li><span>&rarr;</span>Highschooling from KENDRIYA VIDYALAYA UDAIPUR (2020-2022)</li>
+          <li><span>&rarr;</span>TALENT ACADEMY(2016-2020)</li>
+        </ul>
+      </div>
+      </div>
+      
+
+    </div>
+  </div>
+  <div class="project" id="a3">
+    <h1 style="text-align: center;">MY PROJECTS</h1>
+    <div class="card-container">
+      <div class="grid" id="project-1">
+        <div><h2 style="text-align: center;">Project 1</h2><button class="btn"><a href="/all src/project-1 src/src/project-1.html" style="color: black;" target="_blank">Link</a></button></div>
+      </div>
+      <div class="grid" id="project-2">
+        <h2 style="text-align: center;" >Project 2</h2><button class="btn"><a href="https://travel-journel.netlify.app" style="color:black;" target="_blank">Link</a></button>
+      </div>
+      <div class="grid" id="project-3">
+        <h2 style="text-align: center;" >Project 3</h2><button class="btn"><a href="" style="color: black;">Link</a></button>
+      </div>
+      <div class="grid" id="project-4">
+        <h2 style="text-align: center;">Project 4</h2><button class="btn"><a href="" style="color: black;">Link</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="contact" id="a4">
+    <h1>Contact Me</h1>
+    <div class="padd">
+      <form name="submit-to-google-sheet">
+        <input name="name" type="text" class="feedback-input" placeholder="Name" required/>
+        <input name="email" type="text" class="feedback-input" placeholder="Email" required pattern="[^ @]*@[^ @]*"/>
+        <textarea name="text" class="feedback-input" placeholder="Comment" required minlength="15"></textarea>
+        <input type="submit" value="SUBMIT" />
+      </form>
+      <span id="msg"></span>
+    </div>
+
+  </div>
+  <script src="/app.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUcBfcjZ__rvBq7l2RBBZoucJFB4lHw2AY7jbXu7dDUZNtsTJRCizCtpd-NiCgu4B7/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          alert("Submitted Successfully")
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>

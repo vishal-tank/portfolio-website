@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items:center;
+    background-repeat: no-repeat;
+}
+.img{
+    margin: 5px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    border-radius: 20px;
+}
+.side-b{
+    display: flex;
+    margin-right: 20px;
+}
+span{
+    margin: 10px 20px 0px 20px;
+}
+.top-bar span{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.intro p{
+    font-size:20px;
+    margin-bottom: 0;
+}
+.intro h1{
+    margin-top: 0;
+    font-size: 70px;
+}
+#vish{
+    color: rgba(84, 84, 221, 0.822);
+
+}
+.image-logo{
+    cursor: pointer;
+    /* margin-top: 90px; */
+}
+.social-logos{
+    position: absolute;
+    right: 0;
+    top: 29%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+}
+.social-logos div img{
+    border-radius: 40px;
+}
+.introduction{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+}
+.image-logo:hover{
+    background-image: url("/bottstrap/my-hover.png");
+}
+.side-b a:hover{
+    color: rgba(84, 84, 221, 0.822);
+    position: relative;
+    top:-2px;
+
+}
+.top-bar a:hover{
+    color: rgba(84, 84, 221, 0.822);
+    position: relative;
+    top:-2px;
+}
+.top-bar{
+    display: flex;
+    /* justify-content:center; */
+    /* padding: 10px; */
+    flex-direction: column;
+    width: 100%;
+}
+.top-bar button{
+    margin: 5px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+.top-bar button:active{
+    box-shadow: rgba(48, 126, 230, 0.25) 0px 54px 55px, rgba(48, 126, 230, 0.25) 0px -12px 30px, rgba(48, 126, 230, 0.25)0px 4px 6px, rgba(48, 126, 230, 0.25) 0px 12px 13px, rgba(48, 126, 230, 0.25) 0px -3px 5px;
+}
+.top-bar button:hover{
+    background-color: rgba(84, 84, 221, 0.822);
+    box-shadow: rgba(77, 147, 218, 0.521) 0px 54px 55px,
+            rgba(251, 253, 255, 0.1) 0px -12px 30px,
+            rgba(251, 253, 255, 0.1)0px 4px 6px,
+            rgba(251, 253, 255, 0.1) 0px 12px 13px,
+            rgba(251, 253, 255, 0.1) 0px -3px 5px;
+}
+.about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content:space-around;
+    margin: 20px;
+}
+.about-btn{
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+}
+.about-me{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+}
+.mypara{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.about-me:hover{
+    background-color: rgba(35, 35, 30, 0.7);
+    
+}
+.project:hover{
+    background-color:rgba(35, 35, 30, 0.7) ;
+}
+.desc{
+    display: flex;
+    font-size: 24px;
+    /* margin: 10px;
+    margin-top: 60px; */
+    padding: 10px;
+    justify-content: center;
+
+}
+.desc li{
+    list-style:circle;
+    text-align:start;
+    margin: 20px;  
+}
+#myexperience,#myeducation,#myskill{
+    display:none;
+}
+/* #myeducation li span{
+    background-color:rgba(84, 84, 221, 0.822);
+    border-radius: 40px;
+} */
+.project{
+    width: 100%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 500px;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.grid{
+    width: 300px;
+    height: 320px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color:white;
+    box-shadow:rgba(251, 253, 255, 0.1) 0px 54px 55px,
+        rgba(251, 253, 255, 0.1) 0px -12px 30px,
+        rgba(251, 253, 255, 0.1)0px 4px 6px,
+        rgba(251, 253, 255, 0.1) 0px 12px 13px,
+        rgba(251, 253, 255, 0.1) 0px -3px 5px;
+    align-self: center;
+    margin: 15px;
+}
+.grid:hover{
+    background-color:rgba(84, 84, 221, 0.5);
+    box-shadow: rgba(77, 147, 218, 0.521) 0px 54px 55px,
+                rgba(251, 253, 255, 0.1) 0px -12px 30px,
+                rgba(251, 253, 255, 0.1)0px 4px 6px,
+                rgba(251, 253, 255, 0.1) 0px 12px 13px,
+                rgba(251, 253, 255, 0.1) 0px -3px 5px;
+    
+}
+.grid .btn a{
+    padding: 10px;
+}
+.grid .btn{
+    padding:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: larger;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    position:relative;
+    top: 200px;
+    left:20%;
+    visibility: hidden;
+    transform: translate(-50%,-50%)scale(0.001);
+    transition: transform 0.5s ,top 0.8s;
+}
+.links{
+    margin: 0;
+}
+.grid:hover .btn{
+    visibility: visible;
+    top: 200px;
+    left:50%;
+    transform: translate(-50%,-50%)scale(1);
+}
+.btn:hover{
+    color: grey;
+}
+@media(max-width:1356px){
+    .project{
+        height: 100%;
+    }
+}
+
+#hamburger{
+    font-size: 30px;
+    margin-right: 30px;
+    display:none;
+    position: fixed;
+    top: 10px;
+    right: 17px;
+}
+.menu{
+    display: block;
+}
+@media(max-width:900px){
+    #hamburger {
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
+@media(min-width:900px){
+    .menu.active {
+        display: none;
+    }
+}
+
+.menu{
+    justify-self: center;
+    display: none;
+    position: relative;
+    top: 20px;
+    right:40px;
+}
+.menu.active{
+    display: block;
+}
+.menu ul li{
+    line-height: 40px;
+    text-align:center ;
+}
+@media(max-width:500px){
+    .grid{
+        color: black;
+        background-color:rgba(84, 84, 221, 0.822);
+    }
+    .grid .btn{
+        visibility: visible;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%, -50%)scale(1);
+    }
+    .image-logo{
+        display: none;
+    }
+    .intro h1 {
+        font-size: 60px;
+    }
+    .mypara h2{
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:580px){
+    .social-logos{
+        flex-direction: row;
+        top:12%;
+        left:0;
+        justify-content: center;
+    }
+}
+.social-logos div img:hover{
+    -webkit-box-shadow: -4px -2px 25px 12px rgba(106, 91, 207, 0.83);
+    -moz-box-shadow: -4px -2px 25px 12px rgba(106, 91, 207, 0.83);
+    box-shadow: -4px -2px 25px 12px rgba(106, 91, 207, 0.83);
+}
+.contact{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+.contact-container{
+    display: flex;
+    height: 100%;
+    justify-content:center;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+.write{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    text-align: center;
+    margin: 20px;
+    margin-right: 0;
+    padding-bottom: 15px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid red;
+    margin: 20px;
+    margin-left: 0;
+    height: 60vh;
+    width: 30vw;
+}
+.contact-info h1,div{
+    text-align: left;
+    margin: 20px;
+}
+.input{
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+input[type=message]{
+    padding-bottom: 90px;
+    padding-right: 90px;
+    background-color: inherit;
+    border-style: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+}
+input[type=text]{
+    padding-bottom: 10px;
+    padding-right: 90px;
+    background-color: inherit;
+    border-style: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+}
+input[type=email]{
+    padding-bottom: 10px;
+    padding-right: 90px;
+    background-color:inherit;
+    border-style: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+}
+.contact:hover{
+    background-color: rgba(35, 35, 30, 0.7);
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* body {
+    background: rgb(30, 30, 40);
+} */
+
+form {
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+.feedback-input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgba(84, 84, 221, 0.822);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #CC4949;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:rgba(84, 84, 221, 0.822);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: rgba(84, 84, 221, 1);
+}
+[type="submit"]:active {
+    background:white;
+}
+
+.contact h1{
+    text-align: center;
+}
+#msg{
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+    text-align: center;
+}
+.mypara h2{
+    font-weight: 400;
+    color:white;
+}
+@media(max-width:400px){
+    .top-bar button{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+#project-1{
+    background-image: url(/IMG/TIP\ CALCULATOR.png);
+}
+#project-2{
+    background-image: url(/IMG/TRAVEL\ JOURNEL.png);
+    background-size: cover;
+}

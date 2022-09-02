@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/all src/project-1 src/src/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="head">Tip Calculator</div>
+        <div class="bill">Bill Total</div>
+        <div class="bill-input"><input type="text" placeholder="₹" class="inputB" onkeyup="mone()"></div>
+        <div class="tip">Tip</div>
+        <div class="tip-input"><input type="text" placeholder="%" class="inputT" onkeyup="mone()"></div>
+        <div class="bott">
+            <div class="person">Number Of People
+                <span class="tip-button">
+                    <button class="plus" onclick="increase()"><img src="/all src/project-1 src/img/plus.png" alt="" id="plus"></button>
+                    <p id="number">1</p>
+                    <button class="minus" onclick="decrease()"><img src="/all src/project-1 src/img/minus.png" alt="" id="minus"></button>
+                </span>
+            </div>
+
+            <div class="total-amount">Total Per Person<div id="amount">₹0.00</div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="/all src/project-1 src/src/main.js"></script>
+</body>
+
+</html>

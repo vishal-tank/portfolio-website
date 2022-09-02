@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display:flex ;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: larger;
+    font-weight:900 ;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(162, 61, 245, 1) 50%, rgba(50, 5, 144, 1) 85%);
+    
+}
+@media(min-width:400px){
+    .card{
+        height: 100%;
+        width: 95%;
+        margin: 20px;
+    }
+    #amount i{
+        font-size: 2px;
+    }
+}
+#plus,#minus{
+    height: 27px;
+    width: 27px;
+    
+}
+.card{
+    height: 100%;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(27, 148, 189, 1) 56%);
+    box-shadow: rgba(3, 55, 99, 0.8) 0px 22px 70px 4px;
+}
+.bill-input{
+    margin-bottom: 50px;
+}
+.tip-input{
+    margin-bottom: 50px;
+}
+.tip-button{
+    display: flex;
+    margin-bottom: 50px;
+}
+.plus,.minus{
+    margin: 10px;
+    padding: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#number{
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+.inputB{
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.inputT{
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.bott{
+    display: flex;
+    justify-content:space-between;
+
+}
+#amount{
+    font-size: 35px;
+    margin-top: 5px;
+}
+.total-amount{
+    text-align: center;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    margin: 25px;
+    margin-top: 20px;
+}
+.person{
+    margin-left: 10px;
+}
+
